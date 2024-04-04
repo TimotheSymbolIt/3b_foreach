@@ -104,7 +104,7 @@ header li {
   margin: 50px auto;
 }
 
-#offers_description {
+.section_description {
   text-align: center;
   margin-bottom: 20px;
 }
@@ -121,7 +121,7 @@ header li {
   padding: 20px;
   color: white;
   border-radius: 5px;
-  box-shadow: 0px 3px 1px rgb(200, 200, 200);
+  box-shadow: 0px 3px 1px rgba(200, 200, 200, 0.664);
 }
 
 .image_container {
@@ -161,6 +161,61 @@ header li {
 
 .offer_text {
   text-align: center;
+}
+
+/*  */
+
+/* Section 'Nous contacter */
+
+#section_contact_us {
+  max-width: 1400px;
+  margin: 50px auto;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+#inputs_textarea_container {
+  display: flex;
+}
+
+#inputs_block {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin-right: 10px;
+}
+
+textarea {
+  width: 50%;
+}
+
+input,
+textarea {
+  padding: 10px;
+}
+
+input:nth-of-type(2) {
+  margin: 10px 0;
+}
+
+#form_button {
+  background-color: #76b3f7;
+  color: white;
+  border-radius: 3px;
+  width: 200px;
+  text-align: center;
+  align-self: center;
+  padding: 10px;
+  margin-top: 10px;
+  box-shadow: 0px 3px 1px rgba(200, 200, 200, 0.664);
+}
+
+#form_button:hover {
+  background-color: #518dd1;
+  cursor: pointer;
 }
 
 /*  */
