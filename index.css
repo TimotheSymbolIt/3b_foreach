@@ -50,3 +50,35 @@ header li {
 }
 
 /*  */
+
+/* Jumbotron */
+
+#jumbotron {
+  height: 500px;
+  background-image: url(./assets/images/bowling_field.jpg);
+  background-position: center;
+  background-size: cover;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#jumbotron_text {
+  background: rgba(0, 0, 0, 0.599);
+  color: white;
+  padding: 10px;
+  border: white 2px solid;
+  font-weight: bold;
+  text-align: center;
+}
+
+#jumbotron_title {
+  font-size: 40px;
+}
+
+#jumbotron_subtitle {
+  font-size: 30px;
+}
+
+/*  */
