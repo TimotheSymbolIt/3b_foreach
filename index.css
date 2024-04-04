@@ -1,0 +1,52 @@
+@font-face {
+  font-family: AnandaBlack;
+  src: url(./assets/fonts/AnandaBlack.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto";
+}
+
+h1 {
+  font-family: AnandaBlack;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+/* Header */
+
+header {
+  background-color: #76b3f7;
+}
+
+#header_container {
+  color: white;
+  padding: 10px;
+  max-width: 1400px;
+  margin: auto;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header ul {
+  display: flex;
+}
+
+header li {
+  margin-left: 10px;
+}
+
+/*  */
