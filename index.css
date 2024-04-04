@@ -219,3 +219,18 @@ input:nth-of-type(2) {
 }
 
 /*  */
+
+/* Footer */
+
+footer {
+  background-color: #518dd1;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+footer span {
+  margin: 10px;
+}
+
+/*  */
