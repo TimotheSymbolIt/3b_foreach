@@ -1,66 +1,70 @@
 @font-face {
-  font-family: AnandaBlack;
-  src: url(./assets/fonts/AnandaBlack.ttf);
+	font-family: AnandaBlack;
+	src: url(./assets/fonts/AnandaBlack.ttf);
 }
 
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Roboto";
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Roboto";
+}
+
+html {
+	scroll-behavior: smooth;
 }
 
 h1 {
-  font-family: AnandaBlack;
+	font-family: AnandaBlack;
 }
 
 h2 {
-  margin-bottom: 20px;
-  text-align: center;
+	margin-bottom: 20px;
+	text-align: center;
 }
 
 a {
-  color: white;
-  text-decoration: none;
+	color: white;
+	text-decoration: none;
 }
 
 ul {
-  list-style: none;
+	list-style: none;
 }
 
 img {
-  width: 100%;
-  height: 100%;
+	width: 100%;
+	height: 100%;
 }
 
 .bold {
-  font-weight: bold;
+	font-weight: bold;
 }
 
 /* Header */
 
 header {
-  background-color: #76b3f7;
+	background-color: #76b3f7;
 }
 
 #header_container {
-  color: white;
-  padding: 10px;
-  max-width: 1400px;
-  margin: auto;
+	color: white;
+	padding: 10px;
+	max-width: 1400px;
+	margin: auto;
 
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
 }
 
 header ul {
-  display: flex;
+	display: flex;
 }
 
 header li {
-  margin-left: 10px;
+	margin-left: 10px;
 }
 
 /*  */
@@ -68,31 +72,31 @@ header li {
 /* Jumbotron */
 
 #jumbotron {
-  height: 500px;
-  background-image: url(./assets/images/bowling_field.jpg);
-  background-position: center;
-  background-size: cover;
+	height: 500px;
+	background-image: url(./assets/images/bowling_field.jpg);
+	background-position: center;
+	background-size: cover;
 
-  display: flex;
-  justify-content: center;
-  align-items: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 #jumbotron_text {
-  background: rgba(0, 0, 0, 0.599);
-  color: white;
-  padding: 10px;
-  border: white 2px solid;
-  font-weight: bold;
-  text-align: center;
+	background: rgba(0, 0, 0, 0.599);
+	color: white;
+	padding: 10px;
+	border: white 2px solid;
+	font-weight: bold;
+	text-align: center;
 }
 
 #jumbotron_title {
-  font-size: 40px;
+	font-size: 40px;
 }
 
 #jumbotron_subtitle {
-  font-size: 30px;
+	font-size: 30px;
 }
 
 /*  */
@@ -100,67 +104,68 @@ header li {
 /* Section 'Nos Offres */
 
 #section_offers {
-  max-width: 1400px;
-  margin: 50px auto;
+	max-width: 1400px;
+	margin: 0 auto;
+	padding: 50px;
 }
 
 .section_description {
-  text-align: center;
-  margin-bottom: 20px;
+	text-align: center;
+	margin-bottom: 20px;
 }
 
 #offers {
-  display: flex;
+	display: flex;
 }
 
 .offer {
-  flex-grow: 1;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 20px;
-  color: white;
-  border-radius: 5px;
-  box-shadow: 0px 3px 1px rgba(200, 200, 200, 0.664);
+	flex-grow: 1;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 20px;
+	color: white;
+	border-radius: 5px;
+	box-shadow: 0px 3px 1px rgba(200, 200, 200, 0.664);
 }
 
 .image_container {
-  width: 100px;
-  height: 100px;
-  margin-bottom: 10px;
+	width: 100px;
+	height: 100px;
+	margin-bottom: 10px;
 }
 
 .offer_title {
-  margin-bottom: 10px;
-  text-decoration: underline;
-  font-weight: bold;
-  font-size: 20px;
+	margin-bottom: 10px;
+	text-decoration: underline;
+	font-weight: bold;
+	font-size: 20px;
 }
 
 .offer:first-of-type {
-  background-color: #76b3f7;
+	background-color: #76b3f7;
 }
 
 .offer:nth-of-type(2) {
-  background-color: #ff9595;
-  margin: 0px 10px;
+	background-color: #ff9595;
+	margin: 0px 10px;
 }
 
 .offer:last-of-type {
-  background-color: #ffe572;
+	background-color: #ffe572;
 }
 
 .price_nbmax_block {
-  display: flex;
-  align-items: center;
+	display: flex;
+	align-items: center;
 }
 
 .price_nbmax_block p {
-  margin: 10px;
+	margin: 10px;
 }
 
 .offer_text {
-  text-align: center;
+	text-align: center;
 }
 
 /*  */
@@ -168,54 +173,55 @@ header li {
 /* Section 'Nous contacter */
 
 #section_contact_us {
-  max-width: 1400px;
-  margin: 50px auto;
+	max-width: 1400px;
+	margin: 0px auto;
+	padding: 50px;
 }
 
 form {
-  display: flex;
-  flex-direction: column;
+	display: flex;
+	flex-direction: column;
 }
 
 #inputs_textarea_container {
-  display: flex;
+	display: flex;
 }
 
 #inputs_block {
-  display: flex;
-  flex-direction: column;
-  width: 50%;
-  margin-right: 10px;
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+	margin-right: 10px;
 }
 
 textarea {
-  width: 50%;
+	width: 50%;
 }
 
 input,
 textarea {
-  padding: 10px;
+	padding: 10px;
 }
 
 input:nth-of-type(2) {
-  margin: 10px 0;
+	margin: 10px 0;
 }
 
 #form_button {
-  background-color: #76b3f7;
-  color: white;
-  border-radius: 3px;
-  width: 200px;
-  text-align: center;
-  align-self: center;
-  padding: 10px;
-  margin-top: 10px;
-  box-shadow: 0px 3px 1px rgba(200, 200, 200, 0.664);
+	background-color: #76b3f7;
+	color: white;
+	border-radius: 3px;
+	width: 200px;
+	text-align: center;
+	align-self: center;
+	padding: 10px;
+	margin-top: 10px;
+	box-shadow: 0px 3px 1px rgba(200, 200, 200, 0.664);
 }
 
 #form_button:hover {
-  background-color: #518dd1;
-  cursor: pointer;
+	background-color: #518dd1;
+	cursor: pointer;
 }
 
 /*  */
@@ -223,14 +229,14 @@ input:nth-of-type(2) {
 /* Footer */
 
 footer {
-  background-color: #518dd1;
-  color: white;
-  text-align: center;
-  padding: 10px;
+	background-color: #518dd1;
+	color: white;
+	text-align: center;
+	padding: 10px;
 }
 
 footer span {
-  margin: 10px;
+	margin: 10px;
 }
 
 /*  */
