@@ -240,3 +240,25 @@ footer span {
 }
 
 /*  */
+
+/* Float button */
+
+#redirect_button {
+	background-color: rgb(208, 208, 208);
+	width: 40px;
+	height: 40px;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: fixed;
+	bottom: 30px;
+	right: 30px;
+}
+
+.float_button_container {
+	height: 35px;
+	width: 35px;
+}
+
+/*  */
